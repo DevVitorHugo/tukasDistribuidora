@@ -6,22 +6,26 @@
 }
 .cabecalho{
     background-color: rgb(0, 73, 184);
+    height: 70px;
     display: flex;
     flex-direction:row ;
     align-items: center;
-    justify-content:space-around;
-    padding-top: 5px;
+    justify-content:right;
+    padding-top: 4px;
     border-bottom: 5px solid rgb(255, 238, 0);
-    position: fixed;
+    
 }
 .cabecalho-logo{
-   
+    background-color:aliceblue;
     width: 17%;
     height: 17%;
+    margin-top: 25px;
+    margin-left: 40px;
 }
 .cabecalho-menu{
     display: flex;
     gap: 10px;
+    margin-right: 35px;
 }
 .cabecalho-menu-item{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,5 +62,25 @@
 
 }
 .busca{
-    float: right;
+    float: left;
+    margin-right: 10px;
+    width: 700px;
+    height: 50px;
+    float: left;
+}
+.subtitulo{
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topo{background-color: aliceblue;}
+.marcas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.icon{
+    border: 0.5px solid gray;
 }
